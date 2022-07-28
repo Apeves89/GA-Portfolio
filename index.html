@@ -5,10 +5,45 @@
         <title></title>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" charset="utf-8"></script>
         <script src="app.js" charset="utf-8"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>	
-        <h1>Hello World</h1>
-        <h2>My name is Alexis Peves</h2>
+        <header>
+            <div class="navigation">
+                <a href="index.html"><img class="nav-box" src="./images/llama-head-silhouette-2-removebg-preview.png" alt="Llama silhouette" height="36"></a>             
+                <nav class="nav-box">
+                    <a href="index.html">Home</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <section class="page scroll">
+            <div id="home">            
+              <div id="home-content">
+                  <!-- <h1>Home</h1> -->
+              </div>
+            </div>
+            <div id="about-me">                
+                <article><h1>About Me</h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptatum enim tempore placeat. Dicta ipsam tempora doloribus quidem magnam. Excepturi deserunt quaerat sint, iste aut nulla laborum voluptates doloribus ea.<br><br>
+                  Lorem ipsum dolor sit <span id="1">amet</span> consectetur, adipisicing elit. Labore, quisquam aliquid. Nihil, consequatur veritatis? Debitis saepe qui suscipit, laboriosam nulla minima iure. Neque, at. Assumenda quibusdam quas atque corrupti natus!<br><br>
+                  Lorem ipsum dolor sit, amet <span id="2">consectetur</span> adipisicing elit. Fugiat aspernatur repellat laboriosam quas officia quidem accusamus <span id="3"> accusantium</span> consectetur natus temporibus iste, sit soluta quod possimus eos ratione autem sint. Sequi!<br><br>
+                  Lorem ipsum dolor sit amet, consectetur <span id="4"> adipisicing</span> elit. Iste ad doloribus necessitatibus deserunt eaque assumenda suscipit cumque et distinctio officia saepe ullam rem sint <span id="5">nobis</span> , quibusdam voluptatem ea ipsum repellendus?<br><br>
+                </article>
+                <div id="about-me-images">
+                    <img class="images" src="https://randomwordgenerator.com/img/picture-generator/55e3d7424951b10ff3d8992cc12c30771037dbf852547940752979dd954f_640.jpg" alt="" style="display:none">
+                    <img class="images" src="https://randomwordgenerator.com/img/picture-generator/57e9dd464a57aa14f1dc8460962e33791c3ad6e04e507749772f78d4954dcc_640.jpg" alt="" style="display:none">
+                    <img class="images" src="https://randomwordgenerator.com/img/picture-generator/57e2d54b4853ad14f1dc8460962e33791c3ad6e04e507441722872d7964dc6_640.jpg" alt="" style="display:none">
+                    <img class="images" src="https://randomwordgenerator.com/img/picture-generator/g1bdb94f940035f4a177ba019551b62c57b91f68318a4f5840695d808ff228e6774a794874c9367d51e5ea2d0bc40b510_640.jpg" alt="" style="display:none">
+                    <img class="images" src="https://randomwordgenerator.com/img/picture-generator/57e0d5474857ac14f1dc8460962e33791c3ad6e04e507440762e78d7974cc2_640.jpg" alt="" style="display:none">
+                </div>
+            </div>
+            <div id="projects"><h1>Projects</h1></div>
+            <div id="resume"><h1>Resume</h1></div>
+            <div id="contact"><h1>Contact</h1></div>
+        </section>
     </body>
 </html>
