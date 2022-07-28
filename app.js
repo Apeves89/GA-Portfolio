@@ -1,6 +1,6 @@
 $(() => {
 
-    if ($(document).width() > 500){
+    if ($(window).width() > 500){
         $('#1').on('mouseover',() => {
             $('.images').css('display','none')
             $('.images').eq(0).css('display','block')
@@ -39,6 +39,27 @@ $(() => {
             $('#about-me-images').children().eq(currentImgIndex).css('display','block')
         })
     }
+    let currentProjectIndex = 0
+    let numOfProjectImages = $('#project-image-container').children().length - 1
+    $('.next').on('click',() => {
+        $('#project-image-container').children().eq(currentProjectIndex).css('display','none')
+        if(currentProjectIndex < numOfProjectImages) {
+            currentProjectIndex ++
+           } else {
+            currentProjectIndex = 0
+           }
+        $('#project-image-container').children().eq(currentProjectIndex).css('display','block')
+    })
+    $('.previous').on('click',() => {
+        $('#project-image-container').children().eq(currentProjectIndex).css('display', 'none')
+        if(currentProjectIndex > 0) {
+            currentProjectIndex --
+          } else {
+            currentProjectIndex = numOfProjectImages
+          }
+        $('#project-image-container').children().eq(currentProjectIndex).css('display', 'block')
+    })
+    
 
 
 
