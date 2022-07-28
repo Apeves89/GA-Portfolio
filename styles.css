@@ -2,6 +2,9 @@ body{
     background: dimgray;
     margin: 0;
 }
+span{
+    color: white;
+}
 .navigation{
     display: grid;
     position: fixed;
@@ -27,7 +30,7 @@ body{
 }
 nav a{
     text-align: right;
-    color: rgb(247, 226, 199);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px;
 }
@@ -48,6 +51,7 @@ nav a{
 #about-me{
     background: linear-gradient(180deg, #a75265 0%, #ec7263 100%);
     display: flex;
+    padding-top: 25%;
     grid-row: 2/3;
     /* background-color: rgb(167, 82, 101); */
     height: 100vh;
@@ -61,6 +65,7 @@ nav a{
     /* background-color: rgb(236, 114, 99); */
     height: 100vh;
     width: 100vw;
+    justify-content: center;
 }
 #resume{
     background: linear-gradient(180deg, rgba(167, 82, 101) 0%,#57385c 100%);
@@ -69,6 +74,7 @@ nav a{
     /* background-color: rgb(254, 190, 126); */
     height: 100vh;
     width: 100vw;
+    justify-content: center;
 }
 #contact{
     background-color: #57385c;
@@ -77,6 +83,7 @@ nav a{
     /* background-color: rgb(254, 190, 126); */
     height: 25vh;
     width: 100vw;
+    justify-content: center;
 }
 article h1{
     margin: 0;
@@ -88,9 +95,9 @@ h1{
 }
 article{
     background-color: rgb(0, 0, 0, .2);
-    position: relative;
-    top: 25%;
-    margin: 0 4% 0 6%;
+    /* position: relative; */
+    /* top: 25%; */
+    margin: 0% 4% 0 6%;
     height: 50vh;
     width: 40vw;
     overflow: scroll;
@@ -99,9 +106,9 @@ article{
     box-shadow: -5px -5px 5px -2px black;
 }
 #about-me-images{
-    position: relative;
-    top: 25%;
-    margin: 0 2%;
+    /* position: relative; */
+    /* top: 25%; */
+    margin: 0% 2% 0 2%;
     height: 50vh;
     width: 40vw;
     /* border: 5px solid black; */
