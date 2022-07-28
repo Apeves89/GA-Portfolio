@@ -117,6 +117,9 @@ nav a{
     width: 50vw;
     display: flex;
     border: 5px solid black;
+    overflow: scroll;
+    padding: 1px;
+    
 
 }
 #resume{

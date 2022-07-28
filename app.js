@@ -39,25 +39,45 @@ $(() => {
             $('#about-me-images').children().eq(currentImgIndex).css('display','block')
         })
     }
+
+
+    $('#project-image-container').children().eq(0).css('display','block')
+    $('#description').children().eq(0).css('display','block')
+
+    let currentDescriptionIndex = 0
+    let numOfDescription = $('#description').children().length - 1
     let currentProjectIndex = 0
     let numOfProjectImages = $('#project-image-container').children().length - 1
     $('.next').on('click',() => {
         $('#project-image-container').children().eq(currentProjectIndex).css('display','none')
-        if(currentProjectIndex < numOfProjectImages) {
+        $('#description').children().eq(currentDescriptionIndex).css('display','none')
+
+        if(currentProjectIndex < numOfProjectImages &&
+            currentDescriptionIndex < numOfDescription) {
             currentProjectIndex ++
+            currentDescriptionIndex++
            } else {
             currentProjectIndex = 0
+            currentDescriptionIndex = 0
            }
         $('#project-image-container').children().eq(currentProjectIndex).css('display','block')
+        $('#description').children().eq(currentDescriptionIndex).css('display','block')
+
     })
     $('.previous').on('click',() => {
         $('#project-image-container').children().eq(currentProjectIndex).css('display', 'none')
-        if(currentProjectIndex > 0) {
+        $('#description').children().eq(currentDescriptionIndex).css('display','none')
+        if(currentProjectIndex > 0 && 
+            currentDescriptionIndex > 0) {
             currentProjectIndex --
+            currentDescriptionIndex--
           } else {
             currentProjectIndex = numOfProjectImages
+            currentDescriptionIndex = numOfDescription
           }
         $('#project-image-container').children().eq(currentProjectIndex).css('display', 'block')
+        $('#description').children().eq(currentDescriptionIndex).css('display','block')
+
     })
     
 
