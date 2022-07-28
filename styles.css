@@ -12,23 +12,19 @@ body{
     left: 0;
     right: 0;
 }
+.nav-box{
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
 .nav-box:nth-child(1){
     display: flex;
     grid-column: 1/2;
-	justify-content: center;
-	align-items: center;
 }
 .nav-box:nth-child(2){
     display: flex;
     grid-column: 3/4;
-	justify-content: center;
-	align-items: center;
 }
-img{
-    /* background-color: rgb(254, 190, 126, .7); */
-    /* border-radius: 40px; */
-}
-
 nav a{
     text-align: right;
     color: rgb(247, 226, 199);
