@@ -4,6 +4,13 @@ body{
 h1{
     margin: 0;
 }
+h2{
+    margin: 0%;
+    
+}
+h4{
+    margin: 0%;
+}
 .navigation{
     display: grid;
     position: fixed;
@@ -160,4 +167,25 @@ h1{
     display: flex;
     height: 100vh;
     width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.education{
+    margin-top: 50px;
+    height: fit-content;
+    text-align: center;
+}
+.education h2:hover{
+    text-decoration: underline;
+}
+.title{
+    margin: 2px;
+}
+.school{
+    display: none;
+    margin: 0;
+}
+.job{
+    display: none;
+    margin: 2px
 }

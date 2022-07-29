@@ -79,6 +79,12 @@ $(() => {
         $('#description').children().eq(currentDescriptionIndex).css('display','block')
 
     })
+    $('#r1').on('click', () => {
+        $('.school').show('slow')
+    })
+    $('#r2').on('click', () => {
+        $('.job').show('slow')
+    })
 
 
 
