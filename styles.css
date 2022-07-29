@@ -79,7 +79,7 @@ h4{
 .about-me-text{
     background-color: rgb(0, 0, 0,.1);
     color: rgb(255, 255, 255, .8);
-    height: 50vh;
+    height: 40vh;
     width: 40vw;
     overflow: auto;
     box-shadow: -5px -5px 5px -2px white;
@@ -93,16 +93,21 @@ h4{
     color: black;
 }
 .about-me-images{
+    display: flex;
     background-color: rgb(0, 0, 0,.1);
-
-    height: 50vh;
-    width: 40vw;
+    height: 40vh;
+    width: 50vw;
     border-radius: 2px;
     box-shadow: 5px 5px 5px -2px white;
+    justify-content: center;
+    align-content: center;
 }
 .images{
-    height: 100%;
-    width: 100%;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 #projects{
@@ -127,10 +132,14 @@ h4{
     width: 60vw;
     display: flex;
     align-self: center;
+    align-content: center;
+    justify-content: center;
 }
 .project-images{
-    height: 100%;
-    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 .previous, .next{
     text-decoration: none;
