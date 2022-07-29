@@ -77,11 +77,12 @@ h4{
     justify-content: center;
 }
 .about-me-text{
+    background-color: rgb(0, 0, 0,.1);
     color: rgb(255, 255, 255, .8);
     height: 50vh;
     width: 40vw;
     overflow: auto;
-    box-shadow: -5px -5px 5px -2px black;
+    box-shadow: -5px -5px 5px -2px white;
 
 }
 .about-me-text h1{
@@ -92,10 +93,12 @@ h4{
     color: black;
 }
 .about-me-images{
+    background-color: rgb(0, 0, 0,.1);
+
     height: 50vh;
     width: 40vw;
     border-radius: 2px;
-    box-shadow: 5px 5px 5px -2px black;
+    box-shadow: 5px 5px 5px -2px white;
 }
 .images{
     height: 100%;
@@ -108,6 +111,7 @@ h4{
     height: 100vh;
     width: 100vw;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 #previous-button{
@@ -153,6 +157,7 @@ h4{
 
 }
 #description{
+    color: white;
     margin: 0 5px;
     height: 25vh;
     width: 40vw;
@@ -174,6 +179,7 @@ h4{
     margin-top: 50px;
     height: fit-content;
     text-align: center;
+    color: rgb(228, 228, 228);
 }
 .education h2:hover{
     text-decoration: underline;
@@ -188,4 +194,12 @@ h4{
 .job{
     display: none;
     margin: 2px
+}
+
+#contact{
+    background-color: #57385c;
+    display: flex;
+    height: 25vh;
+    width: 100vw;
+    justify-content: center;
 }
