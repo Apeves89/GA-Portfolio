@@ -1,5 +1,4 @@
 $(() => {
-    const $homeMessage = $('<h1>').attr('id','home-message').text('Welcome').appendTo('#home').hide().fadeIn(3000)
 
     if ($(window).width() > 500){
         $('#1').on('mouseover',() => {
@@ -29,17 +28,18 @@ $(() => {
         })
     }else{
         let currentImgIndex = 0
-        let numOfImages = $('.about-me-images').children().length - 1
-        $('.about-me-images').on('click',() => {
-            $('.about-me-images').children().eq(currentImgIndex).css('display','none')
+        let numOfImages = $('#about-me-images').children().length - 1
+        $('#about-me-images').on('click',() => {
+            $('#about-me-images').children().eq(currentImgIndex).css('display','none')
             if(currentImgIndex < numOfImages) {
                 currentImgIndex ++
             }else {
                 currentImgIndex = 0
             }
-            $('.about-me-images').children().eq(currentImgIndex).css('display','block')
+            $('#about-me-images').children().eq(currentImgIndex).css('display','block')
         })
     }
+
 
     $('#project-image-container').children().eq(0).css('display','block')
     $('#description').children().eq(0).css('display','block')
@@ -79,9 +79,46 @@ $(() => {
         $('#description').children().eq(currentDescriptionIndex).css('display','block')
 
     })
+    
 
 
 
 
 
-}) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+})
+    
+    
