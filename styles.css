@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background-color: #57385c;
+
 }
 h1{
     margin: 0;
@@ -83,6 +85,7 @@ h4{
     width: 40vw;
     overflow: auto;
     box-shadow: -5px -5px 5px -2px white;
+    border-radius: 5px;
 
 }
 .about-me-text h1{
@@ -101,6 +104,7 @@ h4{
     box-shadow: 5px 5px 5px -2px white;
     justify-content: center;
     align-content: center;
+    border-radius: 5px;
 }
 .images{
     display: flex;
@@ -134,12 +138,14 @@ h4{
     align-self: center;
     align-content: center;
     justify-content: center;
+    border-radius: 5px;
 }
 .project-images{
     max-height: 100%;
     max-width: 100%;
     width: auto;
     height: auto;
+    border-radius: 5px;
 }
 .previous, .next{
     text-decoration: none;
@@ -207,8 +213,21 @@ h4{
 
 #contact{
     background-color: #57385c;
+    color: white;
     display: flex;
     height: 25vh;
     width: 100vw;
     justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+#contact h2{
+    height: fit-content;
+    margin-bottom: 50px;
+}
+#contact a{
+    margin: 0 10px;
+}
+#contact img{
+    height: 40px;
 }
