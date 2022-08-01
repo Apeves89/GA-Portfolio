@@ -1,7 +1,7 @@
 $(() => {
     const $homeMessage = $('<h1>').attr('id','home-message').text('Welcome').appendTo('#home').hide().fadeIn(3000)
 
-    if ($(window).width() > 500){
+    if ($(window).width() > 600){
         $('#1').on('mouseover',() => {
             $('.images').css('display','none')
             $('.images').eq(0).css('display','block')
@@ -17,16 +17,7 @@ $(() => {
             $('.images').eq(2).css('display','block')
             
         })
-        $('#4').on('mouseover',() => {
-            $('.images').css('display','none')
-            $('.images').eq(3).css('display','block')
-            
-        })
-        $('#5').on('mouseover',() => {
-            $('.images').css('display','none')
-            $('.images').eq(4).css('display','block')
-            
-        })
+        
     }else{
         let currentImgIndex = 0
         let numOfImages = $('.about-me-images').children().length - 1
@@ -39,6 +30,14 @@ $(() => {
             }
             $('.about-me-images').children().eq(currentImgIndex).css('display','block')
         })
+
+        //Change about me section to be stacked
+        $('<div>').addClass('break').insertAfter('.about-me-text')
+        $('#about-me').css('flex-wrap','wrap')
+        $('.about-me-text').css('width','60vw')
+        $('.about-me-images').css('width','60vw')
+        $('span').css('color','white')
+        $('<p>').text('(Click empty box to view photos)').appendTo('.about-me-text')
     }
 
     $('#project-image-container').children().eq(0).css('display','block')
