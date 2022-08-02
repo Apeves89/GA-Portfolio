@@ -22,3 +22,12 @@ The Projects section would be used to display any future projects I will create 
 The Resume section would display my education and professional experience. While I did not include my full resume on the page, I included a link to a pdf version of my resume.
 
 I added a Contact section to link my Github and LinkedIn pages. Also, a link that will open up an email message to my contact email.
+
+## **Thoughts & Future Improvements**
+
+I believe I was able to accomplish my initial design while adding some styling to the page. I will need to practice and get comfortable with HTML & CSS since I haven't had much experience at all. 
+
+I struggled with the layout of the page using Flexbox and getting things to align the way I wanted to. I had rewrite and restructure some of the CSS because I got confused as to what changes were being made. I worked through each section trying to eliminate properties that weren't making any changes.
+
+I would like to come back to this and work through the media queries to make it a better mobile experience. I ran into some issues with media queries and instead used jQuery to make some changes when the screen size was reduced.
+
