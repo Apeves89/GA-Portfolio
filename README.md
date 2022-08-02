@@ -2,12 +2,14 @@
 
 Here is the link to my portfolio website: [Portfolio Link](https://apeves.netlify.app/)
 
-## **Technologies used**
----
+
+## **Technologies used** 
+
 My portfolio website was made using HTML, CSS, and a small amount of Javascript/Jquery that I was able to learn throughout the first two weeks of General Assembly's Software Engineering program.
 
+
 ## **Design Approach**
-***
+
 ![Mockup](https://i.imgur.com/tBH7bcJ.jpg)
 The image above is a quick mockup that I used to design my portfolio website. I was going for a simple design where the navigation bar items  were linked to different sections of the page. 
 
@@ -18,3 +20,5 @@ The About Me section was designed to display a brief description of my professio
 The Projects section would be used to display any future projects I will create with a brief description about the project. I put the project images and descriptions in a carousel to show multiple projects.
 
 The Resume section would display my education and professional experience. While I did not include my full resume on the page, I included a link to a pdf version of my resume.
+
+I added a Contact section to link my Github and LinkedIn pages. Also, a link that will open up an email message to my contact email.
