@@ -27,9 +27,6 @@ h4{
 #icon{
     width: 36px;
 }
-/* .nav-box{
-    flex-direction: row;
-} */
 .nav-box:nth-child(1){
     display: flex;
     grid-column: 1/2;
@@ -46,6 +43,9 @@ h4{
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 5px;
+}
+.nav-box a:hover{
+    text-decoration: underline;
 }
 
 #home{
@@ -210,6 +210,13 @@ h4{
     display: none;
     margin: 2px
 }
+#resume-link{
+    text-decoration: none;
+    color:#ec7263
+}
+#resume-link:hover{
+    text-decoration: underline;
+}
 
 #contact{
     background-color: #57385c;
@@ -232,7 +239,6 @@ h4{
     height: 40px;
 }
 
-@media (max-width: 600){
-   
-
+@media only screen and (max-width: 600){
+    
 }

@@ -37,7 +37,7 @@ $(() => {
         $('.about-me-text').css('width','60vw')
         $('.about-me-images').css('width','60vw')
         $('span').css('color','white')
-        $('<p>').text('(Click empty box to view photos)').appendTo('.about-me-text')
+        $('<p>').text('(Click area below to view photos)').appendTo('.about-me-text')
     }
 
     $('#project-image-container').children().eq(0).css('display','block')
