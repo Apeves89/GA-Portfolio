@@ -91,7 +91,7 @@ h4{
 .about-me-text{
     background-color: rgb(0, 0, 0,.1);
     color: rgb(255, 255, 255, .8);
-    height: 40vh;
+    height: 50vh;
     width: 40vw;
     overflow: auto;
     box-shadow: -5px -5px 5px -2px white;
@@ -108,7 +108,7 @@ h4{
 .about-me-images{
     display: flex;
     background-color: rgb(0, 0, 0,.1);
-    height: 40vh;
+    height: 50vh;
     width: 50vw;
     border-radius: 2px;
     box-shadow: 5px 5px 5px -2px white;
@@ -197,6 +197,7 @@ h4{
     flex-wrap: wrap;
 }
 .education{
+    width: 100%;
     margin-top: 50px;
     height: fit-content;
     text-align: center;
@@ -223,7 +224,33 @@ h4{
 #resume-link:hover{
     text-decoration: underline;
 }
-
+.technologies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.technologies h2{
+    width: 100%;
+    text-align: center;
+    color: rgb(228, 228, 228);
+}
+.tech-div{
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tech-text{
+    color: rgb(228, 228, 228);
+    text-align: center;
+    width: 100%;
+}
+.tech-images{
+    height: 80px;
+}
 #contact{
     background-color: #57385c;
     color: white;
