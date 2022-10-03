@@ -24,6 +24,15 @@ h4{
     right: 0;
     align-items: center;
 }
+#description a{
+    color: white;
+}
+#description a:hover{
+    color: rgb(254, 190, 126);
+}
+#description p{
+    padding: 5px 0;
+}
 #icon{
     width: 36px;
 }
@@ -46,6 +55,7 @@ h4{
 }
 .nav-box a:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #home{
@@ -72,7 +82,7 @@ h4{
 
 #about-me{
     background: linear-gradient(180deg, #a75265 0%, #ec7263 100%);
-    display: flex;
+    display: none;
     height: 100vh;
     width: 100vw;
     align-items: center;
@@ -116,7 +126,7 @@ h4{
 
 #projects{
     background: linear-gradient(180deg, rgba(236, 114, 99) 0%,rgba(167, 82, 101) 100%);
-    display: flex;
+    display: none;
     height: 100vh;
     width: 100vw;
     justify-content: center;
@@ -132,7 +142,6 @@ h4{
 }
 #project-image-container{
     margin: 0 5px;
-    height: 60vh;
     width: 60vw;
     display: flex;
     align-self: center;
@@ -141,10 +150,7 @@ h4{
     border-radius: 5px;
 }
 .project-images{
-    max-height: 100%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
     border-radius: 5px;
 }
 .previous, .next{
@@ -184,7 +190,7 @@ h4{
 
 #resume{
     background: linear-gradient(180deg, rgba(167, 82, 101) 0%,#57385c 100%);
-    display: flex;
+    display: none;
     height: 80vh;
     width: 100vw;
     justify-content: center;
@@ -221,11 +227,11 @@ h4{
 #contact{
     background-color: #57385c;
     color: white;
-    display: flex;
+    display: none;
     height: 25vh;
     width: 100vw;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
 }
 #contact h2{

@@ -1,5 +1,5 @@
 $(() => {
-    const $homeMessage = $('<h1>').attr('id','home-message').text('Welcome').appendTo('#home').hide().fadeIn(3000)
+    const $homeMessage = $('<h1>').attr('id','home-message').text('Welcome\n I am Alexis Peves').appendTo('#home').hide().fadeIn(3000)
 
     if ($(window).width() > 600){
         $('#1').on('mouseover',() => {
@@ -78,11 +78,40 @@ $(() => {
         $('#description').children().eq(currentDescriptionIndex).css('display','block')
 
     })
+    
     $('#r1').on('click', () => {
         $('.school').show('slow')
     })
     $('#r2').on('click', () => {
         $('.job').show('slow')
+    })
+    $('#about-me-button').on('click', () => {
+        $('#about-me').css("display","flex")
+        $('#home').css("display","none")
+        $('#projects').css("display","none")
+        $('#resume').css("display","none")
+        $('#contact').css("display","none")
+    })
+    $('#projects-button').on('click', () => {
+        $('#projects').css("display","flex")
+        $('#home').css("display","none")
+        $('#about-me').css("display","none")
+        $('#resume').css("display","none")
+        $('#contact').css("display","none")
+    })
+    $('#resume-button').on('click', () => {
+        $('#resume').css("display","flex")
+        $('#home').css("display","none")
+        $('#projects').css("display","none")
+        $('#about-me').css("display","none")
+        $('#contact').css("display","none")
+    })
+    $('#contact-button').on('click', () => {
+        $('#contact').css("display","flex")
+        $('#home').css("display","none")
+        $('#projects').css("display","none")
+        $('#resume').css("display","none")
+        $('#about-me').css("display","none")
     })
 
 

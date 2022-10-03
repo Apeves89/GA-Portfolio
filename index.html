@@ -12,10 +12,10 @@
             <div class="navigation">
                 <a id="icon" href="index.html"><img class="nav-box" src="./images/IMG_0005.png" alt="Llama silhouette" height="36"></a>             
                 <nav class="nav-box">
-                    <a href="#about-me">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#resume">Resume</a>
-                    <a href="#contact">Contact</a>
+                    <a id="about-me-button">About</a>
+                    <a id="projects-button">Projects</a>
+                    <a id="resume-button">Resume</a>
+                    <a id="contact-button">Contact</a>
                 </nav>
             </div>
         </header>
@@ -45,24 +45,41 @@
             <!-- <h1>Projects</h1> -->
             <div id="previous-button"><a class="previous">&laquo;</a></div>
             <div id="project-image-container">
-                <img class="project-images" src="https://randomwordgenerator.com/img/picture-generator/55e3d7424951b10ff3d8992cc12c30771037dbf852547940752979dd954f_640.jpg" alt="" style="display:none">
-                <img class="project-images" src="https://randomwordgenerator.com/img/picture-generator/57e9dd464a57aa14f1dc8460962e33791c3ad6e04e507749772f78d4954dcc_640.jpg" alt="" style="display:none">
-                <img class="project-images" src="https://randomwordgenerator.com/img/picture-generator/57e2d54b4853ad14f1dc8460962e33791c3ad6e04e507441722872d7964dc6_640.jpg" alt="" style="display:none">
-                <img class="project-images" src="https://randomwordgenerator.com/img/picture-generator/g1bdb94f940035f4a177ba019551b62c57b91f68318a4f5840695d808ff228e6774a794874c9367d51e5ea2d0bc40b510_640.jpg" alt="" style="display:none">
-                <img class="project-images" src="https://randomwordgenerator.com/img/picture-generator/57e0d5474857ac14f1dc8460962e33791c3ad6e04e507440762e78d7974cc2_640.jpg" alt="" style="display:none">
+                <img class="project-images" src="./images/projectshowcase.png" alt="" style="display:none">
+                <img class="project-images" src="./images/craftingstash.png" alt="" style="display:none">
+                <img class="project-images" src="./images/wastd.png" alt="" style="display:none">
+                <img class="project-images" src="./images/notetsy.png" alt="" style="display:none">
             </div>
             <div id="next-button"><a class="next">&raquo;</a></div>          
             <div id="description">
-                <p id="project-description" style="display:none">Description 1</p>
-                <p id="project-description" style="display:none">Description 2</p>
-                <p id="project-description" style="display:none">Description 3</p>
-                <p id="project-description" style="display:none">Description 4</p>
-                <p id="project-description" style="display:none">Description 5</p>
+                <p id="project-description" style="display:none">CRUD app to showcase personal projects. <br>
+                    Built with Express, MongoDB, EJS & Node.js<br>
+                    <a target="_blank" href="https://obscure-coast-07598.herokuapp.com/">Website Link</a>&emsp;<a target="_blank" href="https://github.com/Apeves89/ZoidbergCRUDapp">Repo Link</a>
+                </p>
+
+                <p id="project-description" style="display:none">Group MERN CRUD app to keep track of yarn and crochet/knitting supplies. <br>
+                    Collaborated with <a target="_blank" href="https://github.com/romajoy">Joy Houser</a>.<br>
+                    Built with Mongo, Express, React, & Node.js<br>
+                    <a target="_blank" href="https://desolate-island-81438.herokuapp.com/">Website Link</a>&emsp;<a target="_blank" href="https://github.com/romajoy/personal-stash-frontend">Frontend Repo Link</a>&emsp;<a target="_blank" href="https://github.com/romajoy/personal-stash-backend">Backend Repo Link</a>
+                </p>
+
+                <p id="project-description" style="display:none">Cocktail social media app for users to post favorite drinks. <br>
+                    Collaborated with <a target="_blank" href="https://github.com/sarameix">Sara Meixner</a>, <a target="_blank" href="https://github.com/lexigrant">Lexi Grant</a> and <a target="_blank" href="https://github.com/ampersand22">Jey Ulmer</a>.<br>
+                    Built with Python, Django & React<br>
+                    
+                    <a target="_blank" href="https://rocky-temple-80630.herokuapp.com/">Website Link</a>&emsp;<a target="_blank" href="https://github.com/ampersand22/drinkapp-front">Frontend Repo Link</a>&emsp;<a target="_blank" href="https://github.com/sarameix/drink-rest-api">Backend Repo Link</a>
+                </p>
+
+                <p id="project-description" style="display:none">A clone of Etsy listings page. <br>
+                    Built With Java, SpringBoot & React<br>
+                    <a target="_blank" href="https://notetsy-frontend.herokuapp.com/">Website Link</a>&emsp;<a target="_blank" href="https://github.com/Apeves89/etsyfrontend">Frontend Repo Link</a>&emsp;<a target="_blank" href="https://github.com/Apeves89/etsybackend">Backend Repo Link</a></p>
             </div>
         </div>
         <div id="resume">
             <div class="education">
                 <h2 class="title" id="r1">Education</h2><br>
+                <h4 class="school">General Assembly 2022</h4><br>
+                <p class="school">Software Engineering</p><br>
                 <h4 class="school">Lincoln Technical Institute 2016-2017</h4><br>
                 <p class="school">Certification in CNC Machining & Manufacturing</p><br>
                 <h4 class="school">New Jersey Institute of Technology 2009-2013</h4><br>
@@ -78,7 +95,7 @@
                 <h4 class="job">AKELA Laser Corporation</h4><br>
                 <h5 class="job">Junior Laser Engineer&emsp;&emsp;&emsp;Contract 03/13 - 05/13</h5><br>
                 <!-- <p class="job">Job Description</p> -->
-                <a class="job" id="resume-link" href="https://drive.google.com/file/d/1HoxCYn_ZLv-BWEExGWsqzABxqlgPzfEf/view?usp=sharing">View full resume here</a>
+                <a class="job" id="resume-link" target="_blank" href="https://drive.google.com/file/d/1cfFzhFt0SSQCCYNDQgJ4m8lag6id1d7r/view?usp=sharing">View full resume here</a>
             </div>      
         </div>
         <div id="contact">
@@ -86,7 +103,7 @@
             <div class="break"></div>
             <a id="contact-icons" href="https://github.com/Apeves89"><img class="icon-image" src="./icons/icons8-github-480.png" alt="Github" ></a>
             <a id="contact-icons" href="https://www.linkedin.com/in/alexis-peves-99141167/"><img class="icon-image" src="./icons/icons8-linkedin-circled-480.png" alt="Linkedin" ></a>
-            <a id="contact-icons" href="mailto:alexpeves@gmail.com"><img class="icon-image" src="./icons/icons8-mail-90.png" alt="Email" ></a>
+            <a id="contact-icons" target="_blank" href="mailto:alexpeves@gmail.com"><img class="icon-image" src="./icons/icons8-mail-90.png" alt="Email" ></a>
         </div>
     </body>
 </html>
