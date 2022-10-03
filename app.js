@@ -1,5 +1,5 @@
 $(() => {
-    const $homeMessage = $('<h1>').attr('id','home-message').text('Welcome\n I am Alexis Peves').appendTo('#home').hide().fadeIn(3000)
+    const $homeMessage = $('<h1>').attr('id','home-message').text('Welcome').appendTo('#home').hide().fadeIn(3000)
 
     if ($(window).width() > 600){
         $('#1').on('mouseover',() => {
