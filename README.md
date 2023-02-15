@@ -1,6 +1,6 @@
 # **Portfolio**
 
-Here is the link to my portfolio website: [Portfolio Link](https://apeves.netlify.app/)
+Here is the link to my portfolio website: [Portfolio Link](https://apeves.netlify.app/){target="_blank"}
 
 
 ## **Technologies used** 
@@ -10,7 +10,7 @@ My portfolio website was made using HTML, CSS, and a small amount of Javascript/
 
 ## **Design Approach**
 
-![Mockup](https://i.imgur.com/tBH7bcJ.jpg){target="_blank"}
+![Mockup](https://i.imgur.com/tBH7bcJ.jpg)
 The image above is a quick mockup that I used to design my portfolio website. I was going for a simple design where the navigation bar items  were linked to different sections of the page. 
 
 The Home section was left open for design in the mockup. It was ultimately used as a Welcome page with a logo.
