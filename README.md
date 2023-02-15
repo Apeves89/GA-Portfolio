@@ -1,6 +1,6 @@
 # **Portfolio**
 
-Here is the link to my portfolio website: [Portfolio Link](https://apeves.netlify.app/){target="_blank"}
+Here is the link to my portfolio website: [Portfolio Link](https://apeves.netlify.app/){:target="_blank"}
 
 
 ## **Technologies used** 
